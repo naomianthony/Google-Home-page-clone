@@ -1,0 +1,131 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 1.5em;
+}
+
+ a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    height: 20px;
+}
+
+nav .button{
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    width:30%;
+}
+
+main{
+    width: 50%;
+    margin:6.9em auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.logo_buttons{
+    margin-top: 1em;
+}
+
+.logo_buttons .btn1{
+    background-color:rgb(240, 236, 236) ;
+    margin: 0.2em;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+
+.google-lang{
+    margin: 25px;
+}
+
+.google-lang p{
+    font-size: 16px;
+}
+
+.google-lang a{
+    color: blue;
+    margin: 2px;
+    
+}
+
+footer{
+    background-color: rgb(240, 236, 236);
+}
+
+
+.footer-top{
+    padding: 1em;
+}
+
+.footer-top p{
+    color: grey;
+}
+
+.footer-center{
+    color: grey;
+
+}
+
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 217, 217);
+}
+
+.bottom-sides a{
+    margin-left: 1em;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
